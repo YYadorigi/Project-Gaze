@@ -1,0 +1,55 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+/7ia8/
+
+# Build outputs
+[Bb]uild/
+[Bb]uilds/
+CodexBuild/
+ExportedObj/
+*.apk
+*.aab
+*.unitypackage
+
+# Generated IDE / editor files
+.vs/
+.vscode/
+.idea/
+.dotnet/
+.dotnet-home/
+.dotnet-build-*.log
+*.csproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.lscache
+
+# Local runtime and experiment outputs
+ExperimentData/**
+!ExperimentData/
+!ExperimentData/README.md
+
+# Local SDK/runtime caches and diagnostics
+*.log
+*.tmp
+*.pid
+sysinfo.txt
+crashlytics-build.properties
+
+# OS files
+.DS_Store
+Thumbs.db

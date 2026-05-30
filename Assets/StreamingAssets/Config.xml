@@ -1,0 +1,16 @@
+﻿<Data>
+  <SCREEN Key = "SIZEInch" Word = "27"/>  //diagonal length of the screen in inch
+  <SCREEN Key = "ViewPosition" Word = "0,0,0.6"/>  //in meter; eg. 0.4m for 16inch; 0.6m for 27inch; 0.8m for 32 inch 1.6m for 65inch
+  <SCREEN Key = "StereoMode" Word = "SideBySide"/> //SideBySide,Mono
+  <ET Key = "IP" Word = "127.0.0.1"/> //IP of the eye tracking data provider
+  <ET Key = "PORT" Word = "9647"/>  //9647,6143,25938
+  <ET Key = "TrackingMethod" Word = "EEServerThread"/> //EEServerThread，None
+  <ET Key = "TrackingDevice" Word = "Himax"/>  //SingleCamera, StereoCamera, Himax and other vendor-specific legacy values
+  <ET Key = "EyeTrackFOV" Word = "60,50"/> // horizontal, vertical for safe tracking region
+  <ET Key = "CompensationParam" Word = "0.5"/>  // 0-5 the larger the more smoother, set to smaller value if eye tracking speed is higher; also has impact on Gray Screen timing if used
+  <ET Key = "trackingNear" Word = "0.3"/> //0.3m for 15.6/32inch; 0.4m for 65inch
+  <ET Key = "trackingFar" Word = "1.4"/>  //1.4m for 15.6/32inch; 3m for 65inch
+  <INTERNAL Key = "USESTEREOBASIS" Word = "1"/> //use the following default IPD as the most trustful and stable ipd value
+  <INTERNAL Key = "STEREOBASISS" Word = "0.065"/> //default IPD
+  <INTERNAL Key = "IGNOREHEADROTATION" Word = "1"/> //virtual stereo camera's z value is always the same
+</Data>
