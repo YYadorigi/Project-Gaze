@@ -12,7 +12,7 @@ namespace ProjectGaze.Calibration
 {
     public sealed class InvensunA8CalibrationSceneController : MonoBehaviour
     {
-        private const float RecommendedScoreThreshold = 95.0f;
+        private const float RecommendedScoreThreshold = 98.0f;
         private const float PointTimeoutSeconds = 10.0f;
         private const float BetweenPointsDelaySeconds = 0.50f;
         private const float CalibrationMoveSpeed = 10.0f;
