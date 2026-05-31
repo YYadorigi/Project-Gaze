@@ -52,4 +52,6 @@ crashlytics-build.properties
 
 # OS files
 .DS_Store
+._*
+._*/
 Thumbs.db
